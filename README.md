@@ -20,14 +20,14 @@ It's a Lambda service that processes the data samples coming from [SFR-devices](
 
 Drastically low pressure. Possible causes:
 ---
--- The air filter is letting almost no air to pass through.
--- The air duct is obstructed. The air filter might have been sucked into the duct.
--- If pressure = 0 the avg will quickly drop;  it means that the sensor is broken; pressure = 0 its an absolute vacuum... not even in outer space :-)
+* The air filter is letting almost no air to pass through.
+* The air duct is obstructed. The air filter might have been sucked into the duct.
+* If pressure = 0 the avg will quickly drop;  it means that the sensor is broken; pressure = 0 its an absolute vacuum... not even in outer space :-)
 
 Pressure equalizes with atmosphere. Possible cause:
 ---
--- Atmospheric pressure is 10332 mmH20. There is no filter or the filter broke and the air is flowing directly with ALMOST NO resistance
+* Atmospheric pressure is 10332 mmH20. There is no filter or the filter broke and the air is flowing directly with ALMOST NO resistance
 
 Filter degradation/clogging. Possible cause:
 ---
--- Wear. Filter needs to be replaced when pressure drops under 10326.5 mmH2O but not less than 1000 mmH2O
+* Wear. Filter needs to be replaced when pressure drops under 10326.5 mmH2O but not less than 1000 mmH2O
