@@ -12,6 +12,8 @@ It's a Lambda service that processes the data samples coming from [SFR-devices](
 
 ### How do I deploy the lambda service and necessary infrastructure:
 
+**Note**: You might want to change the mobile phone number in the **test-customers.json** file to yours so you get the notifications... Example of valid number is 18175698900
+
     npm install --production
     npm run deploy
 
