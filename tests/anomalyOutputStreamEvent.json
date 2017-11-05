@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "kinesis": {
+        "kinesisSchemaVersion": "1.0",
+        "partitionKey": "롕製䛟청뫎籇㤺㪗閍꺆Д㩠ᛰ㗅ᦄᓻ䠞홴䚝픆ᄇ쇱琖㕯뇧𗐮醹샠",
+        "sequenceNumber": "49578458245848808988396180912786664395997019498054942722",
+        "data": "eyJzZXJpYWxOdW1iZXIiOiJDNDUyMDAwMzMiLCJjdXN0b21lcklkIjoiZDQxNDgwMjctZDUyOC00ZjYzLWIwMGItYzc4MjAyMmI1ZWI0IiwiY29sbGVjdGVkQXQiOjE1MDk1ODk3MDk0MTEsInByZXNzdXJlIjoxMDMzMi4wLCJhdmdfcHJlc3N1cmUiOjEwMzMyLjB9",
+        "approximateArrivalTimestamp": 1509589711.177
+      },
+      "eventSource": "aws:kinesis",
+      "eventVersion": "1.0",
+      "eventID": "shardId-000000000000:49578458245848808988396180912786664395997019498054942722",
+      "eventName": "aws:kinesis:record",
+      "invokeIdentityArn": "arn:aws:iam::499155668448:role/sfr-data-lambda-processing",
+      "awsRegion": "us-east-1",
+      "eventSourceARN": "arn:aws:kinesis:us-east-1:499155668448:stream/SFR-RealTimePressureAnomalyDetectionOutputStream"
+    }
+  ]
+}

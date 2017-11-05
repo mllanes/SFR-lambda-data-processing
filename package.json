@@ -1,0 +1,30 @@
+{
+  "name": "sfr-data-lambda-processing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "deploy": "node bin/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mllanes/SFR-data-lambda-processing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mllanes/SFR-data-lambda-processing/issues"
+  },
+  "homepage": "https://github.com/mllanes/SFR-data-lambda-processing#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.142.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "fs-extra": "^4.0.2",
+    "lodash": "^4.17.4",
+    "rootpath": "^0.1.2"
+  }
+}
